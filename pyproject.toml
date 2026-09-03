@@ -19,6 +19,9 @@ dependencies = [
     "matplotlib>=3.8",
     "tqdm>=4.66",
     "PyYAML>=6.0",
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.32",
+    "pydantic>=2.9",
 ]
 
 [project.optional-dependencies]
