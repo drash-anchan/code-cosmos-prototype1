@@ -1,0 +1,7 @@
+{
+  "accuracy": 1.0,
+  "macroF1": 1.0,
+  "trainingSamples": 500,
+  "model": "XGBoost",
+  "trainedAt": "2026-09-03T10:18:21Z"
+}

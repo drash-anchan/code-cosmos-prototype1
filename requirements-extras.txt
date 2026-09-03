@@ -1,0 +1,16 @@
+# Optional science extras — see requirements.txt for what each unlocks and
+# what the pipeline falls back to when it is absent.
+#
+# These two build C extensions and need Python development headers:
+#   Fedora/RHEL:   sudo dnf install python3-devel
+#   Debian/Ubuntu: sudo apt install python3-dev
+batman-package==2.5.1
+transitleastsquares==1.32
+
+# Pure-Python / prebuilt wheels — safe to install anywhere:
+emcee==3.1.6
+celerite2==0.3.3
+corner==2.2.3
+
+# Only needed if you want to pull real light curves from MAST over the network:
+lightkurve==2.6.0
